@@ -28,9 +28,9 @@ aj@lkn.io | @ajlkn
 PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
 
 
-Instructions:
+# Instructions:
 
-	Overview:
+##	Overview:
 
 		Being a single pager, Big Picture should be way simpler to work with than
 		some of the heavier stuff I've released in the past. In fact, aside from
@@ -85,12 +85,12 @@ Instructions:
 				is enabled in your settings).
 
 
-	Lightbox Gallery:
+##	Lightbox Gallery:
 
  		The actual gallery function is powered by my Poptrox plugin. For info on
  		how that works, go here: github.com/ajlkn/jquery.poptrox
 
-		Rows:
+###		Rows:
 
 		 	The structure of the gallery is a skel grid. Each row looks like this:
 
@@ -121,7 +121,7 @@ Instructions:
 			Which translates to "make this 6 wide and nudge it over to the right by
 			another 3".
 
-		Images:
+###		Images:
 
 			Each image (the '...' bit in the above examples) should look like this:
 
@@ -141,20 +141,20 @@ Instructions:
 			image to slide into view (in which case it'll simply fade in).
 
 
-	Contact Form:
+##	Contact Form:
 
 		To get this working, place a script on your server to receive the form data, then
 		point the "action" attribute to it (eg. action="http://mydomain.tld/mail.php").
 		More on how it all works here: 1stwebdesigner.com/tutorials/custom-php-contact-forms
 
 
-    Icons:
+#    Icons:
 
      	Powered by Font Awesome. Go here for a full listing of all the icons you can use:
      	fortawesome.github.io/Font-Awesome/cheatsheet
 
 
-	Other Stuff:
+##	Other Stuff:
 
 		- If you don't like the way images are tinted, either change "images/overlay.png"
 		  to something else, or remove all references to it from css/style.css.
@@ -163,9 +163,9 @@ Instructions:
 		  css/ie/ie8.css as you change other stuff.
 
 
-Credits:
+# Credits:
 
-	Demo Images:
+##	Demo Images:
 		Felicia Simion (ineedchemicalx.deviantart.com)
 			"The Swallow Song"
 			"Mind is a clear stage"
@@ -179,10 +179,10 @@ Credits:
 			"Bent IX"
 			"Air Lounge"
 
-	Icons:
+##	Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
 
-	Other:
+##	Other:
 		jQuery (jquery.com)
 		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
 		CSS3 PIE (css3pie.com)
